@@ -17,7 +17,7 @@ const Category = () => {
 
     return (
         <>
-            <button type="button" onClick={()=>(navigate('/'))}>Home</button>
+            <button className="btn" type="button" onClick={()=>(navigate('/'))}>Назад</button>
                 <Row>
                     {meal.map((item)=>(
                         <Col md={4} sm={6} xs={12} key={item.id}>
